@@ -1,6 +1,6 @@
 # page-example
 
-# start page
+# To start page
 use the command: 
 ```
 start index.html

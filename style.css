@@ -1,0 +1,207 @@
+html, 
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.center-fixed{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.center-relative{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.center-absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#background{
+    background-image: url("assets/background.png");
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+#form-background{
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(22, 35, 67, 0.73);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.33), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+}
+
+#form{
+    width: 80%;
+    height: 80%;
+}
+
+#form .title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #EFCB58;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+}
+
+#content{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #C2AB62;
+    margin: 0 0 10px 0;
+}
+
+#icon-div{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#icon-poly{
+    width: 200px;
+    height: 200px;
+}
+
+#icon-party{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#div-comment{
+    display:table;
+    border-spacing: 10px;
+    margin: auto;
+    font-family: 'Montserrat', system-ui;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#div-comment .comment{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#comment-counter{
+    width: 39px;
+    height: 39px;
+    background-image: url("assets/small-polly.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+}
+
+#comment-counter p{
+    margin: 0;
+    font-weight: 700;
+}
+
+#div-last-message{
+    width: 400px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+#last-message{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+#last-message p{
+    margin: 0;
+}
+
+#last-message span{
+    color: #EFCB58;
+}
+
+#buttons-div{
+    position: relative;
+}
+
+#buttons-div button{
+    margin: auto auto 10px auto;
+    display: block;
+    width: 165px;
+    height: 55px;
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(10% 0%, 90% 0%, 100% 20%, 100% 80%, 90% 100%, 10% 100%, 0% 80%, 0% 20%);
+}
+
+.btn-content{
+    display: table;
+    margin: auto;
+}
+
+.btn-content img, .btn-content p{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#disc-btn{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+button p{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+}
+
+#skip-btn{
+    background: linear-gradient(180deg, rgba(239, 203, 88, 0.81) 0%, rgb(0 0 0 / 12%) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+
+
